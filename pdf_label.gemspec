@@ -25,7 +25,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency "prawn", "~> 2.2.2"
-  spec.add_development_dependency "rspec", "~> 3.8"
+  spec.add_development_dependency "minitest", "~> 5.1"
 
   # For more information and examples about making a new gem, checkout our
   # guide at: https://bundler.io/guides/creating_gem.html
